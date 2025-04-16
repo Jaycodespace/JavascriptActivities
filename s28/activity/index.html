@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reactive DOM with fetch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    input {
+      padding: 8px;
+      font-size: 16px;
+      width: 100%;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .post {
+      margin-top: 20px;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fetch Post by ID</h1>
+  
+  <input type="number" id="postId" placeholder="Enter post ID" />
+  <button id="fetchButton" disabled>Fetch Post</button>
+  
+  <div class="post" id="postContainer">
+    <h2 id="postTitle"></h2>
+    <p id="postBody"></p>
+  </div>
+  
+  <p id="errorMessage" class="error"></p>
+  
+  <script src="index.js"></script>
+</body>
+</html>

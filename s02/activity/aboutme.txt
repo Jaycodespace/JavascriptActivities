@@ -1,0 +1,6 @@
+Full name: Ryan Jay Anthony C. Timagos
+Nickname: Rjay
+
+I am motivated to join this bootcamp to increase my programming knowledge and enhance my technical skills. I am excited about the opportunity to collaborate with like-minded individuals, exchange ideas, and grow alongside others who share the same passion for technology. This bootcamp will also provide a structured environment to explore cutting-edge tools and frameworks, helping me stay ahead in the ever-evolving tech industry.
+
+I have experience working on diverse projects that have honed my technical and collaborative skills. I have contributed to developing web applications using Django, focusing on user authentication systems, database management, and front-end integration. Additionally, I have worked on data analysis projects, applying quantitative methods and visualizing insights through tools like Matplotlib and Pandas.

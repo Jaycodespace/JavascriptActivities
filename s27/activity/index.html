@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Form Preview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      margin-bottom: 10px;
+      width: 250px;
+    }
+    .preview {
+      margin-top: 20px;
+    }
+    #mobileError {
+      color: red;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <label for="firstName">First Name</label>
+  <input type="text" id="firstName" />
+
+  <label for="lastName">Last Name</label>
+  <input type="text" id="lastName" />
+
+  <label for="email">Email</label>
+  <input type="email" id="email" />
+
+  <label for="mobile">Mobile Number</label>
+  <input type="text" id="mobile" />
+  <p id="mobileError"></p>
+
+  <div class="preview">
+    <h3>Live Preview:</h3>
+    <p><strong>Full Name:</strong> <span id="fullNamePreview"></span></p>
+    <p><strong>Email:</strong> <span id="emailPreview"></span></p>
+    <p><strong>Mobile Number:</strong> <span id="mobilePreview"></span></p>
+    <p id="messagePreview"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
